@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arikxl/ngsoft-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arikxl/ngsoft-server/issues"
+  },
+  "homepage": "https://github.com/arikxl/ngsoft-server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
